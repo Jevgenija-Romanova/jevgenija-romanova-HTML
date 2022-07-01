@@ -1,0 +1,36 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Georgia, serif;
+}
+body {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-right: 10px;
+}
+.full {
+	background-color: mistyrose;
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+.left {
+	position: initial;
+	background-color: grey;
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: goldenrod;
+	padding: 20px;
+
+}
+ 
+.image, .Contact, .Skills, .Language, .Hobbies,.Experience, .Education, .project {
+    margin-bottom: 10px;
+    margin-left: 11px;
+}
